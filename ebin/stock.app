@@ -1,0 +1,9 @@
+{application,stock,
+             [{description,[]},
+              {vsn,"1"},
+              {registered,[]},
+              {applications,[kernel,stdlib]},
+              {mod,{stock_app,[]}},
+              {env,[]},
+              {modules,[cron_service,lib_csv,lib_http,reptitl_service,
+                        stock_app,stock_sup]}]}.
